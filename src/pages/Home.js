@@ -58,18 +58,18 @@ const Home = () => {
               <div className="relative">
                 <AiOutlineSearch
                   fontSize="1.6rem"
-                  className="absolute text-gray-400 top-4 left-3"
+                  className="absolute text-gray-400 top-4 left-3 "
                 />
                 <input
                   type="text"
-                  className="bg-white h-14 w-full px-12 rounded-lg focus:outline-none hover:cursor-pointer"
+                  className="bg-white h-14 w-full px-12 rounded-lg focus:outline-none"
                   name=""
                   onInput={handleChange}
                 />
                 <span className="absolute top-4 right-5 border-l pl-4">
                   <BsMicFill
                     fontSize="1.2rem"
-                    className="text-gray-500 hover:text-green-500 hover:cursor-pointer"
+                    className="text-gray-500 hover:text-green-500 cursor-not-allowed"
                   />
                 </span>
               </div>
